@@ -1,0 +1,491 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <title>TechForum '12 | Moving forward: beyond the object paradigm</title>
+    
+    <meta name="description" content="todo" />
+    <meta name="author" content="Damien Feugas" />
+
+    <link href="css/techforum'12.css" rel="stylesheet" />   
+    <link rel="shortcut icon" href="css/favicon.png" />
+    <link rel="stylesheet" href="css/codemirror.css" />
+</head>
+
+<body class="impress-not-supported">
+
+<div id="impress">
+
+  <div id="main-title" class="step" data-y="0">
+    <div class="content">
+      <div>Moving forward:</div>
+      <div>Beyond</div>
+      <div>the</div>
+      <div>Object</div>
+      <div>Paradigm</div>
+    </div>
+  </div>
+
+  <div id="s1" class="step official" data-x="2000">
+    <h1>Disclaimer</h1>
+    <div> This is <b>NOT</b> 
+      <div class="cascade show">NodeJS versus Java</div>
+      <div class="cascade show">the last super-fancy-coolest-ever fashion</div>
+    </div>
+  </div>
+
+  <div id="s2" class="step official" data-x="4000">
+    <h1>Disclaimer</h1>
+    <div>What can you expect ?
+      <div class="cascade show">Quick tour of Smart Data</div>
+      <div class="cascade show">Overview of NodeJS, and related</div>
+      <div class="cascade show">Feedback on what worked and what failed</div>
+      <div class="little cascade show">...fancy slides</div>
+    </div>
+    <div class="cascade show">This is about <quote>Choosing the right tool for the right job</quote>
+      <span class="image">
+        <img src="css/always_be_closing.jpg"/>
+        <div class="little">thank you Mr. Baldwin</div>
+      </span>
+    </div>
+  </div>
+
+  <div id="s3" class="step normal" data-y="2000" data-x="4000">
+    <h1>Who am I?</h1>
+    <h2>Damien Feugas</h2>
+    <h3>Worldliner at Lyon since 2006</h3>
+    <article>
+      <h4>TUM (4 years)</h4>
+      <div class="cloud">Java <em>Dojo</em> <em>Hibernate</em> Web 2.0 <small>GoLive!</small> JavaScript <small>Mail</small> <em>Spring</em> AppShop <em>Maven</em> <small>Orange</small></div>
+    </article><article>
+      <h4>O&D (1 years)</h4>
+      <div class="cloud"><small>Massilia</small> Java <em>RequireJS</em> Hibernate <em>Camel</em> <small>Data Publica</small> JavaScript <small>ServiceMix</small> Spring <em>CouchDB</em> Maven <em>jQuery</em></div>
+    </article><article>
+      <h4>BSD (1 years)</h4>
+      <div class="cloud"><em>NodeJS</em> Groovy <small>XWiki</small> <em>MongoDB</em> <small>Backbone</small> JavaScript <small>Smart Data</small> <em>ElasticSearch</em></div>
+    </article>
+  </div>
+
+  <div id="s4" class="step normal" data-y="2000" data-x="5000">
+    <h1>What is OOP ?</h1>
+    <div class="cascade show">
+      <h2>According to <a href="http://en.wikipedia.org/wiki/Object-oriented_programming">Wikipedia</a></h2>
+      <article>
+        <h4>Object: unit of code</h4>
+      </article><article>
+        <h4>Encapsulation</h4>
+      </article><article>
+        <h4>Class features</h4>
+      </article>
+    </div>
+    <div class="cascade show">
+      <h2>And it's very good for ?</h2>
+      <article>
+        <h4>Provides structure</h4>
+      </article><article>
+        <h4>Promotes design</h4>
+      </article><article>
+        <h4>Allow reuse</h4>
+      </article>
+    </div>
+    <div class="cascade show">
+      <h2>Almost suitable for any situation !</h2>
+    </div>
+  </div>
+
+  <div id="s5" class="step normal" data-y="2000" data-x="6000">
+    <h1>Caution: troll inside</h1>
+    <div class="cascade show">
+      <quote>
+        Sometimes, the elegant implementation is just a function. Not a method. Not a class. Not a framework. Just a function.
+      </quote>
+      <author>John Carmack</author>
+    </div>
+    <div class="cascade show">
+      <quote>
+        Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves. 
+      </quote>
+      <author>Alan Kay</author>
+    </div>
+    <div class="cascade show">
+      <quote>
+        The problem with object-oriented languages is they've got all this implicit environment that they carry around with them. You wanted a banana but what you got was a gorilla holding the banana and the entire jungle
+      </quote>
+      <author>Joe Armstrong</author>
+    </div>
+    <img src="css/problem-factory.jpg" class="cascade show"/>
+  </div>
+
+  <div id="s6" class="step normal" data-y="2000" data-x="7000">
+    <h1>Real example: Smart Data</h1>
+    <div class="cascade show">
+      <h2>Objectives regarding data</h2>
+      <article>
+        <h4>Collect</h4>
+      </article><article>
+        <h4>Process</h4>
+      </article><article>
+        <h4>Store</h4>
+      </article><article>
+        <h4>Publish</h4>
+      </article><article>
+        <h4>Reuse</h4>
+      </article>
+    </div>
+    <div class="cascade show">
+      <h2>Targeted domains</h2>
+      <article>
+        <h4>Big data</h4>
+      </article><article>
+        <h4>Cloud Computing</h4>
+      </article>
+    </div>
+    <div class="cascade show">
+      <h2>Delivered in SaaS mode</h2>
+    </div>
+    <div class="cascade show">
+      <h2>AWL investment program started on Q1 2011</h2>
+    </div>
+  </div>
+
+  <div id="s7" class="step normal" data-y="2000" data-x="7500" data-rotate-x="90">
+    <img src="css/smartdata-archi.png"/>
+  </div>
+
+  <div id="s8" class="step normal" data-y="2000" data-x="8000">
+    <h1>So far so good</h1>
+    <div class="cascade show">
+      <h2>It's live !</h2>
+      <article>
+        <h4><a href="http://smartdata.io">smartdata.io</a></h4>
+      </article><article>
+        <h4><a href="http://api.smartdata.io/4ede35ba3f370a6f710014b2">api.smartdata.io</a></h4>
+      </article>
+    </div>
+    <div class="cascade show">
+      <h2>Many collaborations with other units</h2>
+      <article>
+        <h4>PHT</h4>
+        <div>Low Emission Zone</div>
+        <div>eBourgone</div>
+        <div>3 commercial proposals</div>
+      </article><article>
+        <h4>O&D</h4>
+        <div>Connected Vehicules</div>
+        <div>Machine 2 Machine</div>
+      </article><article>
+        <h4>RI</h4>
+        <div>Scoring command</div>
+        <div>Customer Analysis</div>
+      </article><article>
+        <h4>TUM</h4>
+        <div>Orange's Storm</div>
+      </article><article>
+        <h4>AtoS Group</h4>
+        <div>Data Lift</div>
+      </article><article>
+        <h4>BSD</h4>
+        <div>BIPE Analytics</div>
+      </article>
+    </div>
+  </div>
+
+  <div id="s9" class="step impact" data-y="2000" data-x="9000" data-rotate-x="45">
+    <h1>We were <em>enthusiastic</em> Java guys, and used all the <em>good stuff</em> we knew</h1>
+    <h1 class="vertical">Spring 2011</h1>
+  </div>
+
+  <div id="s10" class="step impact" data-y="2000" data-x="10000" data-rotate-x="45">
+    <img src="css/smartdata-old-archi-no-logo.png"/>
+  </div>
+
+  <div id="s11" class="step impact" data-y="2000" data-x="10000" data-rotate-x="45">
+    <img src="css/smartdata-old-archi.png"/>
+  </div>
+  
+  <div id="s12" class="step impact" data-y="2000" data-x="10000" data-rotate-z="45">
+    <img src="css/car crash 2.jpg"/>
+    <div class="overlap">
+      <h1 class="cascade show">Too slow</h1>
+      <h1 class="cascade show">Too complicated</h1>
+      <h1 class="cascade show">Too long to test</h1>
+      <h1 class="cascade show">Too rigid</h1>
+      <h1 class="cascade show">Too many technologies</h1>
+    </div>
+  </div>
+
+  <div id="s13" class="step impact" data-y="2000" data-x="11000" data-rotate-x="45">
+    <h1>So we started over, from the <em>begining</em></h1>
+    <h1 class="cascade show">With <em>NodeJS</em></h1>
+    <h1 class="vertical">Summer 2011</h1>
+  </div>
+
+  <div id="s14" class="step normal" data-y="4000" data-x="0">
+    <h1>What is NodeJS ?</h1>
+    <div class="cascade show">
+      <h2>JavaScript on server side</h2>
+      <article>
+        <h4>V8 engine</h4>
+        <div>C++ powered, no DOM</div>
+      </article><article>
+        <h4>Low-level libs</h4>
+        <div>file, net, process...</div>
+      </article><article>
+        <h4>With Modularity</h4>
+        <div>like imports</div>
+      </article>
+    </div>
+    <div class="cascade show">
+      <h2>Asynchronous and event-based</h2>
+      <article>
+        <h4>callbacks</h4>
+        <div>NIO</div>
+      </article><article>
+        <h4>Single-threaded</h4>
+        <div>no concurrency</div>
+      </article>
+    </div>
+    <img class="cascade show" src="css/node-snippet.jpg"/>
+  </div>
+
+  <div id="s15" class="step normal" data-y="4000" data-x="1000">
+    <h1>NodeJS and it's gang</h1>
+    <div class="cascade show">
+      <h2>Node Package Manager (NPM)</h2>
+      <article>
+        <h4>package.json</h4>
+      </article><article>
+        <h4>central repository</h4>
+      </article><article>
+        <h4>script launcher</h4>
+      </article>
+    </div>
+    <div class="cascade show">
+      <h2>Wide range of libraries</h2>
+      <article>
+        <h4>48 Web framework</h4>
+      </article><article>
+        <h4>16 DB drivers</h4>
+      </article><article>
+        <h4>61 templating</h4>
+      </article><article>
+        <h4>64 protocols</h4>
+      </article><article>
+        <h4>100+ parsers</h4>
+      </article><article>
+        <h4>72 testers</h4>
+      </article>
+    </div>
+    <div class="cascade show">
+      <h2>Forges <small>(Travis)</small> and cloud platforms <small>(Heroku Joyent NodeJitsu)</small></h2>
+    </div>
+  </div>
+
+  <div id="s16" class="step normal" data-y="4000" data-x="2000">
+    <h1>The Github playground</h1>
+    <h2 class="cascade show">Almost all is <em>public</em> and free</h2>
+    <h2 class="cascade show">Real community, real <em>share</em></h2>
+    <h2 class="cascade show">Sources are always <em>accessibles</em></h2>
+    <div class="cascade show">
+      <h2>We play also our part</h2>
+      <article>
+        <h4>dozens of pullrequests</h4>
+      </article><article>
+        <h4>publication of some libs</h4>
+      </article>
+    </div>
+  </div>
+
+  <div id="s17" class="step normal" data-y="4000" data-x="2500" data-rotate-x="90">
+    <pre>
+var async = require('async');
+
+async.parallel([
+
+  function(callback){ 
+    setTimeout(function(){ 
+      callback(null, 'one');
+    }, 200); 
+  }, 
+
+  function(callback){ 
+    setTimeout(function(){ 
+      callback(null, 'two'); 
+    }, 100); 
+  }], 
+
+  function(err, results){ 
+    console.dir(results); // [‘one’, ‘two’]
+  }
+)
+    </pre>
+    <aside class="cascade show">imports external library</aside>
+    <aside class="cascade show">execute parallel tasks and memorize order</aside>
+    <aside class="cascade show">parallelised task: for example a file access</aside>
+    <aside class="cascade show">parallelised task: for example a db update</aside>
+    <aside class="cascade show">end callback: gets results in tasks order</aside>
+  </div>
+
+  <div id="s18" class="step normal" data-y="4000" data-x="3500" data-rotate-x="90">
+    <pre>
+var http = require('http');
+
+var proxy = http.createClient(80, 'www.google.com');
+
+
+http.createServer(function(req, resp) {
+
+
+  var proxyReq = proxy.request(req.method, 
+      req.url, req.headers);
+  req.pipe(proxyReq);
+
+
+
+  proxyReq.on('response', function (proxyResp) {
+    resp.writeHead(proxyResp.statusCode, 
+        '', proxyResp.headers)
+
+    proxyResp.pipe(resp);
+  });
+
+
+}).listen(8080);
+    </pre>
+    <aside class="cascade show">native http server and client</aside>
+    <aside class="cascade show">an http client on google</aside>
+    <aside class="cascade show">executed for each incoming request</aside>
+    <aside class="cascade show">pipe data from browser to google</aside>
+    <aside class="cascade show">'response' triggered when google answers</aside>
+    <aside class="cascade show">pipe data from google to browser</aside>
+  </div>
+
+
+  <div id="s19" class="step normal" data-y="4000" data-x="4000">
+    <h1>But... why NodeJS ?</h1>
+    <div class="cascade show">
+      <h2>Smart Data is about <em>heterogeneous</em> data</h2>
+      <h3>Forget strong-typed languages, and SQL</h3>
+    </div>
+    <div class="cascade show">
+      <h2>It's a matter of <em>simplicity</em></h2>
+      <h3>Same language on client <em>and</em> server side</h3>
+    </div>
+    <div class="cascade show">
+      <h2>We needed <em>performances</em></h2>
+      <h3>V8 takes 10ms to startup and 10Mo of memory</h3>
+      <h3>Asynchronous suits well "many-tiny-requests" needs</h3>
+      <h3>Low level and fewer layers is better</h3>
+    </div>
+    <div class="cascade show">
+      <h2>Design often <em>changes</em></h2>
+      <h3>Code need to keep simple</h3>
+      <h3>Code is often re-written</h3>
+    </div>
+  </div>
+
+  <div id="s20" class="step normal" data-y="4000" data-x="5000">
+    <h1>Does it hurts ?</h1>
+    <div class="cascade show">
+      <h2><em>Start</em> is difficult</h2>
+      <h3>Took me a day to understand vows</h3>
+      <h3>A brand new language requests some efforts to learn</h3>
+    </div>
+    <div class="cascade show">
+      <h2>We <em>rewrote</em> the integration chain at least <em>3 times</em></h2>
+      <h3>But now it really <em>scales</em>, and it's really <em>fast</em></h3>
+    </div>
+    <div class="cascade show">
+      <h2>We had to make <em>choices</em></h2>
+      <h3>So many libraries.... Which ones suit best our needs ?</h3>
+    </div>
+    <div class="cascade show">
+      <h2>Nobody <em>trusts</em> young technologies</h2>
+      <h3>You have to be persuasive</h3>
+    </div>
+  </div>
+
+  <div id="s21" class="step normal" data-y="4000" data-x="6000">
+    <h1>Does it worth it ?</h1>
+    <div class="cascade show">
+      <h2><em>Yes</em>, honestly</h2>
+      <h3>3000 documents per sec extracted from a CSV</h3>
+      <h3>A single server can handle 275 searches per sec</h3>
+    </div>
+    <div class="cascade show">
+      <h2>Compiler isn't <em>needed</em></h2>
+      <h3>But you'll have to <em>test</em> everything</h3>
+    </div>
+    <div class="cascade show">
+      <h2><em>ninjas coders</em> neither</h2>
+      <h3>We rewrote our 3-month old Java app in 1 month</h3>
+      <h3>Trainees can understood the project within weeks</h3>
+    </div>
+    <div class="cascade show">
+      <h2>Developpers are <em>happy</em></h2>
+      <h3>They <em>enjoy</em> writing code</h3>
+      <h3>They <em>understand</em> what they are doing</h3>
+    </div>
+  </div>
+
+  <div id="s22" class="step normal" data-y="4000" data-x="6000" data-rotate-x="90">
+    <article>
+      <h4>Pros</h4>
+      <div><em>Simplicity</em>
+        <div>one language for the whole platform</div>
+      </div>
+      <div><em>Dynamic</em>
+        <div>things can evolve freely and quickly</div>
+      </div>
+      <div><em>Understandable</em>
+        <div>you can control anything even in third party libraries</div>
+      </div>
+      <div><em>Asynchronous</em>
+        <div>better use of server resources</div>
+      </div>
+    </article>
+    <article>
+      <h4>Cons</h4>
+      <div><em>Young</em>
+        <div>since a year, 3 Node major releases</div>
+      </div>
+      <div><em>Dynamic</em>
+        <div>no compiler. Vigilance, documentation and tests needed</div>
+      </div>
+      <div><em>Boilerplate code</em>
+        <div>too many callbacks. But CoffeeScript helps a lot</div>
+      </div>
+      <div><em>Not really OOP</em>
+        <div>don’t reproduce what you used to do</div>
+      </div>
+    </article>
+  </div>
+
+  <div id="s23" class="step impact" data-y="6000" data-x="6000" data-rotate-z="90">
+    <h1>Java is <em>really a good</em> language</h1>
+    <h1>Its good to <em>look somewhere else</em></h1>
+    <h1><em>Know our needs...</em> and <quote>choose the right tool for the right job !</quote></h1>
+    <h1 class="vertical">In conclusion</h1>
+  </div>
+
+</div>
+
+<script src="js/impress.js" type="application/javascript"></script>
+<script src="js/techforum'12.js" type="application/javascript"></script>
+<script src="js/jquery-1.7.2.min.js" type="application/javascript"></script>
+<script src="js/codemirror.js"></script>
+<script src="js/javascript-mode.js"></script>
+<script>
+  impress().init();
+  $(window).on('load', function() {
+    custom.init();
+  });
+</script>
+
+</body>
+</html>
+
+
+
