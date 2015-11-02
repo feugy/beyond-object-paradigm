@@ -4,4 +4,4 @@ This presentation was given in June 2012 at [Worldline](http://worldline.com) du
 
 It relates the technical pivot made during [SmartData](http://smartdata.io) project, an online service for collecting, processing, storing and distributing semi-structured data.
 
-You can read in at http://beyond-object-paradigm.github.io
+You can read in at http://feugy.github.io/beyond-object-paradigm
