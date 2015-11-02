@@ -5,11 +5,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <title>TechForum '12 | Moving forward: beyond the object paradigm</title>
-    
+
     <meta name="description" content="todo" />
     <meta name="author" content="Damien Feugas" />
 
-    <link href="css/techforum'12.css" rel="stylesheet" />   
+    <link href="css/techforum'12.css" rel="stylesheet" />
     <link rel="shortcut icon" href="css/favicon.png" />
     <link rel="stylesheet" href="css/codemirror.css" />
 </head>
@@ -30,7 +30,7 @@
 
   <div id="s1" class="step official" data-x="2000">
     <h1>Disclaimer</h1>
-    <div> This is <b>NOT</b> 
+    <div> This is <b>NOT</b>
       <div class="cascade show">NodeJS versus Java</div>
       <div class="cascade show">the last super-fancy-coolest-ever fashion</div>
     </div>
@@ -105,7 +105,7 @@
     </div>
     <div class="cascade show">
       <quote>
-        Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves. 
+        Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves.
       </quote>
       <author>Alan Kay</author>
     </div>
@@ -204,7 +204,7 @@
   <div id="s11" class="step impact" data-y="2000" data-x="10000" data-rotate-x="45">
     <img src="css/smartdata-old-archi.png"/>
   </div>
-  
+
   <div id="s12" class="step impact" data-y="2000" data-x="10000" data-rotate-z="45">
     <img src="css/car crash 2.jpg"/>
     <div class="overlap">
@@ -251,7 +251,7 @@
   </div>
 
   <div id="s15" class="step normal" data-y="4000" data-x="1000">
-    <h1>NodeJS and it's gang</h1>
+    <h1>NodeJS and its gang</h1>
     <div class="cascade show">
       <h2>Node Package Manager (NPM)</h2>
       <article>
@@ -304,19 +304,19 @@ var async = require('async');
 
 async.parallel([
 
-  function(callback){ 
-    setTimeout(function(){ 
+  function(callback){
+    setTimeout(function(){
       callback(null, 'one');
-    }, 200); 
-  }, 
+    }, 200);
+  },
 
-  function(callback){ 
-    setTimeout(function(){ 
-      callback(null, 'two'); 
-    }, 100); 
-  }], 
+  function(callback){
+    setTimeout(function(){
+      callback(null, 'two');
+    }, 100);
+  }],
 
-  function(err, results){ 
+  function(err, results){
     console.dir(results); // [‘one’, ‘two’]
   }
 )
@@ -338,14 +338,14 @@ var proxy = http.createClient(80, 'www.google.com');
 http.createServer(function(req, resp) {
 
 
-  var proxyReq = proxy.request(req.method, 
+  var proxyReq = proxy.request(req.method,
       req.url, req.headers);
   req.pipe(proxyReq);
 
 
 
   proxyReq.on('response', function (proxyResp) {
-    resp.writeHead(proxyResp.statusCode, 
+    resp.writeHead(proxyResp.statusCode,
         '', proxyResp.headers)
 
     proxyResp.pipe(resp);
